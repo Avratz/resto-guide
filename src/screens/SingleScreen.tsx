@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const SingleScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Single</Text>
     </View>
   )
@@ -11,4 +11,8 @@ const SingleScreen = () => {
 
 export default SingleScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    marginTop: 15
+  }
+})
