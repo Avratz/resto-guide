@@ -1,11 +1,13 @@
 import {useEffect, useState} from 'react'
 import Yelp from '../api/yelp'
 
+import { IResto } from '../types/RestoTypes'
+
 type fetchRestos = (term: string) => Promise<void>
 
 const useRestos = (): [
   fetchRestos: fetchRestos,
-  restos: [],
+  restos: [] | IResto[],
   errorMessage: string,
 ] => {
 

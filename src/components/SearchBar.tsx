@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 5,
     height: 50,
-    marginHorizontal: 15,
+    margin: 15,
     flexDirection: 'row',
   },
   textInput: {
